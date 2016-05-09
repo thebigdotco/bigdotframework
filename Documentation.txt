@@ -1,0 +1,15 @@
+This pure CSS & HTML version of Big Dot 2.0 is fairly self-explanatory and easy to use.
+
+To edit the map, open /map/index.html
+Line 16 is the longitude and latitude of the map marker. 
+Line 17 is the longitude and latitude of the centre of the map.
+You can use a site like www.latlong.net to find the correct long and lat for your own map.
+Using the link below you can restyle the map, pasting the new styles on line 25.
+http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html?utm_medium=twitter
+
+To edit the address that the contact form sends emails to, open up message.php
+This should be a carbon copy of your contact page, where the form itself is replaced by the PHP that starts on line 128 (in the original template)
+Change the fields starting with $ to your own information.
+You may also want to set the page to no-index, as it is in the template.
+
+Support can be requested by emailing will@thebig.co
